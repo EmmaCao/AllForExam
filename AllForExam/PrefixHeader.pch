@@ -22,4 +22,7 @@
 //基础类
 #import "RootNavigationController.h"
 
+//第三方
+#import <MJExtension.h>
+
 #endif /* PrefixHeader_pch */

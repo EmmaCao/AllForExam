@@ -8,6 +8,7 @@
 
 #import "MainViewController.h"
 #import "TopicViewController.h"
+#import "TopicsLogic.h"
 
 @interface MainViewController ()
 
@@ -19,6 +20,7 @@
     [super viewDidLoad];
     
     [self setupUI];
+    [self getData];
 }
 
 -(void)setupUI
@@ -42,6 +44,14 @@
 {
     TopicViewController *vc = [[TopicViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
+}
+
+-(void)getData
+{
+    TopicsLogic *logic = [[TopicsLogic alloc] init];
+    [logic loadDataSuccess:^(NSDictionary * _Nonnull resDic) {
+        
+    }];
 }
 
 @end

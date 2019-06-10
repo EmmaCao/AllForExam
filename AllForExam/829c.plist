@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>谭浩强C程序设计</key>
+	<array>
+		<dict>
+			<key>questions</key>
+			<array>
+				<dict>
+					<key>answer</key>
+					<string>B</string>
+					<key>options</key>
+					<dict>
+						<key>D</key>
+						<string></string>
+						<key>C</key>
+						<string></string>
+						<key>B</key>
+						<string></string>
+						<key>A</key>
+						<string></string>
+					</dict>
+					<key>question</key>
+					<string>lalalalla</string>
+				</dict>
+				<dict>
+					<key>answer</key>
+					<string>A</string>
+					<key>options</key>
+					<dict>
+						<key>D</key>
+						<string>选项D</string>
+						<key>C</key>
+						<string>选项C</string>
+						<key>B</key>
+						<string>选项B</string>
+						<key>A</key>
+						<string>选项A</string>
+					</dict>
+					<key>question</key>
+					<string>题目1</string>
+				</dict>
+			</array>
+			<key>topic</key>
+			<string>常量</string>
+		</dict>
+	</array>
+</dict>
+</plist>

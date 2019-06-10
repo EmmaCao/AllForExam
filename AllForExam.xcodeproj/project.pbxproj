@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		544565A26ED5642DBEFD5ECA /* libPods-AllForExam.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F090E03D4E657FB6E30170 /* libPods-AllForExam.a */; };
 		B53B16C422AE2A67006EF6F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B53B16C322AE2A67006EF6F8 /* AppDelegate.m */; };
 		B53B16CA22AE2A67006EF6F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53B16C822AE2A67006EF6F8 /* Main.storyboard */; };
 		B53B16CC22AE2A69006EF6F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53B16CB22AE2A69006EF6F8 /* Assets.xcassets */; };
@@ -20,9 +21,17 @@
 		B53B170722AE3B40006EF6F8 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53B170622AE3B40006EF6F8 /* ResultViewController.m */; };
 		B53B170A22AE3DAD006EF6F8 /* ResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B53B170922AE3DAD006EF6F8 /* ResultTableViewCell.m */; };
 		B53B171022AE41EF006EF6F8 /* AnswerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53B170F22AE41EF006EF6F8 /* AnswerTableViewController.m */; };
+		B53B171322AE4B49006EF6F8 /* TopicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B53B171222AE4B49006EF6F8 /* TopicModel.m */; };
+		B53B171622AE4BA6006EF6F8 /* QuestionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B53B171522AE4BA6006EF6F8 /* QuestionModel.m */; };
+		B53B171822AE4E6D006EF6F8 /* 829c.plist in Resources */ = {isa = PBXBuildFile; fileRef = B53B171722AE4E6D006EF6F8 /* 829c.plist */; };
+		B53B171F22AE5197006EF6F8 /* GetTopics.m in Sources */ = {isa = PBXBuildFile; fileRef = B53B171E22AE5197006EF6F8 /* GetTopics.m */; };
+		B53B172322AE5657006EF6F8 /* TopicsLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = B53B172222AE5657006EF6F8 /* TopicsLogic.m */; };
+		B53B172622AE5B7E006EF6F8 /* BookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B53B172522AE5B7E006EF6F8 /* BookModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16F090E03D4E657FB6E30170 /* libPods-AllForExam.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AllForExam.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EBF2EDFA1250BD7F9131374 /* Pods-AllForExam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllForExam.release.xcconfig"; path = "Pods/Target Support Files/Pods-AllForExam/Pods-AllForExam.release.xcconfig"; sourceTree = "<group>"; };
 		B53B16BF22AE2A67006EF6F8 /* AllForExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllForExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B53B16C222AE2A67006EF6F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B53B16C322AE2A67006EF6F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +62,18 @@
 		B53B170922AE3DAD006EF6F8 /* ResultTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResultTableViewCell.m; sourceTree = "<group>"; };
 		B53B170E22AE41EF006EF6F8 /* AnswerTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnswerTableViewController.h; sourceTree = "<group>"; };
 		B53B170F22AE41EF006EF6F8 /* AnswerTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnswerTableViewController.m; sourceTree = "<group>"; };
+		B53B171122AE4B49006EF6F8 /* TopicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopicModel.h; sourceTree = "<group>"; };
+		B53B171222AE4B49006EF6F8 /* TopicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopicModel.m; sourceTree = "<group>"; };
+		B53B171422AE4BA6006EF6F8 /* QuestionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestionModel.h; sourceTree = "<group>"; };
+		B53B171522AE4BA6006EF6F8 /* QuestionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuestionModel.m; sourceTree = "<group>"; };
+		B53B171722AE4E6D006EF6F8 /* 829c.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = 829c.plist; sourceTree = "<group>"; };
+		B53B171D22AE5197006EF6F8 /* GetTopics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetTopics.h; sourceTree = "<group>"; };
+		B53B171E22AE5197006EF6F8 /* GetTopics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetTopics.m; sourceTree = "<group>"; };
+		B53B172122AE5657006EF6F8 /* TopicsLogic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopicsLogic.h; sourceTree = "<group>"; };
+		B53B172222AE5657006EF6F8 /* TopicsLogic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopicsLogic.m; sourceTree = "<group>"; };
+		B53B172422AE5B7E006EF6F8 /* BookModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookModel.h; sourceTree = "<group>"; };
+		B53B172522AE5B7E006EF6F8 /* BookModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookModel.m; sourceTree = "<group>"; };
+		E1A6B4FC2B5D2B95A77AE355 /* Pods-AllForExam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllForExam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AllForExam/Pods-AllForExam.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +81,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				544565A26ED5642DBEFD5ECA /* libPods-AllForExam.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC861DD449BA3229FD839714 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16F090E03D4E657FB6E30170 /* libPods-AllForExam.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B53B16B622AE2A67006EF6F8 = {
 			isa = PBXGroup;
 			children = (
 				B53B16C122AE2A67006EF6F8 /* AllForExam */,
 				B53B16C022AE2A67006EF6F8 /* Products */,
+				BE1D12368567DEC0B23182C6 /* Pods */,
+				AC861DD449BA3229FD839714 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +134,7 @@
 				B53B16CD22AE2A69006EF6F8 /* LaunchScreen.storyboard */,
 				B53B16D022AE2A69006EF6F8 /* Info.plist */,
 				B53B16D122AE2A69006EF6F8 /* main.m */,
+				B53B171722AE4E6D006EF6F8 /* 829c.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -129,6 +162,8 @@
 		B53B16DC22AE2AC6006EF6F8 /* main(首页) */ = {
 			isa = PBXGroup;
 			children = (
+				B53B172022AE5536006EF6F8 /* Service */,
+				B53B171922AE5158006EF6F8 /* Logic */,
 				B53B16DE22AE2AEC006EF6F8 /* Model */,
 				B53B16DF22AE2AF0006EF6F8 /* View */,
 				B53B16DD22AE2AD2006EF6F8 /* Controller */,
@@ -148,6 +183,8 @@
 		B53B16DE22AE2AEC006EF6F8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B53B172422AE5B7E006EF6F8 /* BookModel.h */,
+				B53B172522AE5B7E006EF6F8 /* BookModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -228,6 +265,8 @@
 		B53B16F622AE2DA2006EF6F8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B53B171122AE4B49006EF6F8 /* TopicModel.h */,
+				B53B171222AE4B49006EF6F8 /* TopicModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -275,6 +314,8 @@
 		B53B16FE22AE329B006EF6F8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B53B171422AE4BA6006EF6F8 /* QuestionModel.h */,
+				B53B171522AE4BA6006EF6F8 /* QuestionModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -302,6 +343,33 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		B53B171922AE5158006EF6F8 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				B53B172122AE5657006EF6F8 /* TopicsLogic.h */,
+				B53B172222AE5657006EF6F8 /* TopicsLogic.m */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		B53B172022AE5536006EF6F8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B53B171D22AE5197006EF6F8 /* GetTopics.h */,
+				B53B171E22AE5197006EF6F8 /* GetTopics.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		BE1D12368567DEC0B23182C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1A6B4FC2B5D2B95A77AE355 /* Pods-AllForExam.debug.xcconfig */,
+				2EBF2EDFA1250BD7F9131374 /* Pods-AllForExam.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -309,6 +377,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B53B16D522AE2A69006EF6F8 /* Build configuration list for PBXNativeTarget "AllForExam" */;
 			buildPhases = (
+				0F0EB338583B4BBB0D2447A1 /* [CP] Check Pods Manifest.lock */,
 				B53B16BB22AE2A67006EF6F8 /* Sources */,
 				B53B16BC22AE2A67006EF6F8 /* Frameworks */,
 				B53B16BD22AE2A67006EF6F8 /* Resources */,
@@ -361,27 +430,54 @@
 			files = (
 				B53B16CF22AE2A69006EF6F8 /* LaunchScreen.storyboard in Resources */,
 				B53B16CC22AE2A69006EF6F8 /* Assets.xcassets in Resources */,
+				B53B171822AE4E6D006EF6F8 /* 829c.plist in Resources */,
 				B53B16CA22AE2A67006EF6F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F0EB338583B4BBB0D2447A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AllForExam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B53B16BB22AE2A67006EF6F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B53B172322AE5657006EF6F8 /* TopicsLogic.m in Sources */,
 				B53B170A22AE3DAD006EF6F8 /* ResultTableViewCell.m in Sources */,
+				B53B171F22AE5197006EF6F8 /* GetTopics.m in Sources */,
 				B53B16D222AE2A69006EF6F8 /* main.m in Sources */,
 				B53B16EA22AE2BB3006EF6F8 /* RootNavigationController.m in Sources */,
 				B53B16F922AE2DF0006EF6F8 /* TopicViewController.m in Sources */,
 				B53B170422AE32BA006EF6F8 /* QuizViewController.m in Sources */,
 				B53B171022AE41EF006EF6F8 /* AnswerTableViewController.m in Sources */,
 				B53B16E222AE2B37006EF6F8 /* MainViewController.m in Sources */,
+				B53B171622AE4BA6006EF6F8 /* QuestionModel.m in Sources */,
+				B53B171322AE4B49006EF6F8 /* TopicModel.m in Sources */,
 				B53B16C422AE2A67006EF6F8 /* AppDelegate.m in Sources */,
 				B53B16EB22AE2BB3006EF6F8 /* RootViewController.m in Sources */,
 				B53B170722AE3B40006EF6F8 /* ResultViewController.m in Sources */,
+				B53B172622AE5B7E006EF6F8 /* BookModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +617,7 @@
 		};
 		B53B16D622AE2A69006EF6F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1A6B4FC2B5D2B95A77AE355 /* Pods-AllForExam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +636,7 @@
 		};
 		B53B16D722AE2A69006EF6F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EBF2EDFA1250BD7F9131374 /* Pods-AllForExam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
